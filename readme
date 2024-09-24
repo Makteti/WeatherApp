@@ -1,0 +1,5 @@
+Successfully deployed @ Docker @ RedHat 9.4 -> 
+[matt@localhost WeatherApp]$ docker ps
+Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
+CONTAINER ID  IMAGE                         COMMAND               CREATED        STATUS        PORTS                   NAMES
+0ec39b316f3a  localhost/weather-app:latest  flask run --host=...  2 minutes ago  Up 2 minutes  0.0.0.0:5000->5000/tcp  sweet_sutherland
